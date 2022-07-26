@@ -2,7 +2,11 @@ import java.io.*;
 import java.util.*;
 
 /**
- * 
+ * Time Complexity:
+The time complexity for this solution is O(n x logk). This is because we are traversing the entire array which takes O(n) time. Inside the traversal loop, we are removing the elements from the priority queue. Removing an element from the priority queue takes O(logk) time since the size of the priority queue is O(k). Hence the overall time complexity becomes O(n x logk).
+
+Space Complexity:
+The space complexity for this solution is O(k) as we have created a priority queue of size k+1. Though we are adding and removing the elements from it still we have created it only once and the same priority queue is used for the entire procedure. Thus the space complexity is O(k).
  */
 
 /**
