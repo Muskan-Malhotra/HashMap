@@ -1,6 +1,16 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+O(n) where n is the number of entities added to the hashmap.
+ */
+
 class HighestFreq {
 
     public static void main(String[] args) throws Exception {
