@@ -5,8 +5,8 @@ import java.util.*;
  * Time Complexity:
 The time complexity for this approach is O(nlogn) where n is the time to traverse the tree and logn for calling find() function for every node.
 
-Space Complexity:
-The space complexity for the function is proportional to the height of the tree due to the recursion stack. (//doubt)
+Space Complexity: O(k)
+The space complexity for the function is proportional to the height of the tree due to the recursion stack. 
  */
 
 class MergeKSortedLists {
@@ -77,3 +77,19 @@ class MergeKSortedLists {
    }
 
 }
+
+/**
+ * Sample Input
+4
+5
+10 20 30 40 50
+7
+5 7 9 11 19 55 57
+3
+1 2 3
+2
+32 39
+Sample Output
+1 2 3 5 7 9 10 11 19 20 30 32 39 40 50 55 57 
+
+ */
