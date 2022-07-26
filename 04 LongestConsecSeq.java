@@ -2,6 +2,14 @@ import java.io.*;
 import java.util.*;
 
 /**
+ * TIME COMPLEXITY- O(n)
+Since the hashmap is traversed once therefore the time complexity is linear.
+
+
+SPACE COMPLEXITY- O(n) where n= number of entities in the Hashmap.
+ */
+
+/**
  * Algo
  * 1) Put all true in map (as potential starts);
  * 2) then put false in map where val+1 isin map
